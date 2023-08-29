@@ -1,0 +1,19 @@
+{
+  "name": "gdtf-types",
+  "version": "1.0.0",
+  "description": "Types for the GDTF file format",
+  "types": "dist/gdtf.d.ts",
+  "author": "Hannes Rüger",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm run setup",
+    "build": "node build.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "cxsd": "^0.1.1",
+    "rimraf": "^5.0.1"
+  }
+}
