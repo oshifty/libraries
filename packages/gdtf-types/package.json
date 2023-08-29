@@ -1,9 +1,9 @@
 {
-  "name": "gdtf-types",
-  "version": "1.0.0",
+  "name": "@oshifty/gdtf-types",
+  "version": "0.0.0",
   "description": "Types for the GDTF file format",
   "types": "dist/gdtf.d.ts",
-  "author": "Hannes Rüger",
+  "author": "SHIFTY Team",
   "license": "MIT",
   "scripts": {
     "postinstall": "npm run build",

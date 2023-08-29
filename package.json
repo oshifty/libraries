@@ -1,0 +1,14 @@
+{
+  "name": "@oshifty/libraries",
+  "version": "0.0.0",
+  "description": "The monorepo for all (npm) libraries used throughout the SHIFTY project, be it types, helpers or components.",
+  "author": "SHIFTY Team",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^7.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
